@@ -48,7 +48,7 @@ docker-compose run web bundle exec rails generate rspec:install
 Start Rails:
 
 ```sh
-docker-compose up --build`
+docker-compose up --build
 ```
 
 Go to `http://localhost:3000`
