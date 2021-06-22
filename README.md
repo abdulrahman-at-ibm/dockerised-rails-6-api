@@ -38,9 +38,14 @@ docker-compose run web bundle exec rails db:migrate
 
 ### 4: Run the test suite
 
-Run RSpec:
+Install RSpec:
 ```sh
 docker-compose run web bundle exec rails generate rspec:install
+```
+
+Run the tests:
+```sh
+docker-compose run web bundle exec rspec
 ```
 
 ### 5: Start the Rails server
